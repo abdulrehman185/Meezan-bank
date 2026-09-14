@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meezan Banking | Demo Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <span>☪</span> Meezan <small>Banking Demo</small>
+        </div>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#digital">Digital Banking</a>
+            <a href="#careers">Careers</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        <button class="login-btn" onclick="showMessage()">Internet Banking</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="tagline">ISLAMIC BANKING • MODERN SOLUTIONS</p>
+            <h1>Banking with<br><span>Trust & Purpose</span></h1>
+            <p>
+                Explore simple, secure and convenient banking solutions
+                designed to help you achieve your financial goals.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#services" class="primary-btn">Explore Services</a>
+                <a href="#contact" class="secondary-btn">Contact Us</a>
+            </div>
+        </div>
+
+        <div class="hero-card">
+            <div class="card-top">
+                <span>DEMO BANKING</span>
+                <span>✦</span>
+            </div>
+            <h2>Financial<br>Freedom</h2>
+            <p>Secure • Simple • Reliable</p>
+            <div class="card-bottom">
+                <span>**** **** **** 2026</span>
+                <span>VISA</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Services -->
+    <section class="quick-services">
+        <div class="quick-box">
+            <span>🏦</span>
+            <h3>Find a Branch</h3>
+            <p>Locate a branch near you.</p>
+        </div>
+
+        <div class="quick-box">
+            <span>💳</span>
+            <h3>Cards & Accounts</h3>
+            <p>Explore banking products.</p>
+        </div>
+
+        <div class="quick-box">
+            <span>📱</span>
+            <h3>Digital Banking</h3>
+            <p>Bank anytime, anywhere.</p>
+        </div>
+
+        <div class="quick-box">
+            <span>☎️</span>
+            <h3>Customer Support</h3>
+            <p>We are here to help.</p>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+        <div class="section-heading">
+            <p class="tagline">OUR SERVICES</p>
+            <h2>Banking Solutions for Every Need</h2>
+            <p>Choose from a range of modern banking services.</p>
+        </div>
+
+        <div class="service-grid">
+            <div class="service-card">
+                <div class="icon">💰</div>
+                <h3>Current Accounts</h3>
+                <p>Manage your everyday transactions with ease and convenience.</p>
+                <a href="#">Learn More →</a>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">📈</div>
+                <h3>Savings Accounts</h3>
+                <p>Plan your future with savings solutions designed for you.</p>
+                <a href="#">Learn More →</a>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">🏠</div>
+                <h3>Home Financing</h3>
+                <p>Explore Shariah-compliant home financing options.</p>
+                <a href="#">Learn More →</a>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">🚗</div>
+                <h3>Auto Financing</h3>
+                <p>Discover convenient vehicle financing solutions.</p>
+                <a href="#">Learn More →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Digital Banking -->
+    <section class="digital-section" id="digital">
+        <div class="digital-content">
+            <p class="tagline">DIGITAL BANKING</p>
+            <h2>Your Bank,<br>Always With You</h2>
+            <p>
+                Experience convenient banking through digital channels.
+                Check balances, transfer funds and manage your finances
+                from wherever you are.
+            </p>
+
+            <div class="digital-features">
+                <div>✓ Account Management</div>
+                <div>✓ Fund Transfers</div>
+                <div>✓ Bill Payments</div>
+                <div>✓ Secure Access</div>
+            </div>
+
+            <button class="primary-btn" onclick="showMessage()">
+                Explore Digital Banking
+            </button>
+        </div>
+
+        <div class="phone">
+            <div class="phone-screen">
+                <div class="phone-header">My Banking</div>
+                <p>Total Balance</p>
+                <h2>PKR 125,000</h2>
+                <div class="balance-line"></div>
+                <div class="phone-row">
+                    <span>Recent Activity</span>
+                    <span>View All</span>
+                </div>
+                <div class="transaction">💸 Fund Transfer <b>- PKR 5,000</b></div>
+                <div class="transaction">💰 Deposit <b>+ PKR 20,000</b></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Careers -->
+    <section class="section careers" id="careers">
+        <div class="section-heading">
+            <p class="tagline">CAREERS</p>
+            <h2>Build Your Future With Us</h2>
+            <p>Grow your skills and explore opportunities in banking.</p>
+        </div>
+
+        <div class="career-box">
+            <div>
+                <h3>Start Your Banking Journey</h3>
+                <p>
+                    Explore opportunities in branch banking, operations,
+                    customer service, technology and management.
+                </p>
+            </div>
+            <button class="primary-btn" onclick="showMessage()">View Opportunities</button>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section" id="contact">
+        <div>
+            <p class="tagline">GET IN TOUCH</p>
+            <h2>We’re Here to Help</h2>
+            <p>Have a question? Our team is ready to assist you.</p>
+        </div>
+
+        <div class="contact-info">
+            <p>📍 Branch Locator</p>
+            <p>☎️ Customer Support</p>
+            <p>✉️ Email Support</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-logo">☪ Meezan Banking Demo</div>
+        <p>This is a student demonstration website.</p>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#digital">Digital Banking</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <p class="copyright">© 2026 Banking Demo. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
